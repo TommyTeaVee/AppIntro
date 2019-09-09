@@ -1,17 +1,13 @@
 package com.amqtech.opensource.appintroexample.util;
 
-/**
- * Created by andrew on 11/17/16.
- */
-
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.PagerAdapter;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 

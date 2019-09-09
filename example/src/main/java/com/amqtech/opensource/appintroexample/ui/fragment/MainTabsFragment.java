@@ -2,9 +2,9 @@ package com.amqtech.opensource.appintroexample.ui.fragment;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,10 +12,6 @@ import android.view.ViewGroup;
 import com.amqtech.opensource.appintroexample.ui.mainTabs.MainPagerAdapter;
 import com.amqtech.opensource.appintroexample.util.TabLayout;
 import com.github.paolorotolo.appintroexample.R;
-
-/**
- * Created by andrew on 11/17/16.
- */
 
 public class MainTabsFragment extends Fragment {
 

@@ -1,12 +1,8 @@
 package com.amqtech.opensource.appintroexample.ui.permsTabs;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-
-/**
- * Created by andrew on 11/17/16.
- */
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 public class PermsPagerAdapter extends FragmentStatePagerAdapter {
 

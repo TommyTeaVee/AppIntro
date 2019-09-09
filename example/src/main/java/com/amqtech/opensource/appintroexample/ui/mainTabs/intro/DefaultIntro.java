@@ -2,17 +2,13 @@ package com.amqtech.opensource.appintroexample.ui.mainTabs.intro;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.github.paolorotolo.appintro.AppIntro;
 import com.github.paolorotolo.appintro.AppIntroFragment;
 import com.github.paolorotolo.appintro.model.SliderPage;
 import com.github.paolorotolo.appintroexample.R;
-
-/**
- * Created by andrew on 11/17/16.
- */
 
 public class DefaultIntro extends AppIntro {
 
