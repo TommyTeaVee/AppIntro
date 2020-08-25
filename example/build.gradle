@@ -1,12 +1,14 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.amqtech.opensource.appintroexample"
+        applicationId "com.github.appintro.example"
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 2
         versionName "1.0.1"
 
@@ -18,18 +20,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    packagingOptions {
-        exclude 'LICENSE.txt'
-    }
     lintOptions {
-        warning 'MissingTranslation'
+        ignore 'MissingTranslation'
     }
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation project(':appintro')
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "androidx.constraintlayout:constraintlayout:1.1.3"
+    implementation "androidx.core:core-ktx:1.3.0"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
     implementation 'androidx.annotation:annotation:1.1.0'
-
-    implementation "com.mikepenz:materialdrawer:6.1.2"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
